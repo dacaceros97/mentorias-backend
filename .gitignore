@@ -1,0 +1,99 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Next.js build output
+.next/
+out/
+
+# Production Build directory
+/dist
+/build
+/public # If your public folder is generated or contains only build artifacts
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Visual Studio Code
+.vscode/
+
+# Editor config files
+.idea/ # WebStorm / IntelliJ IDEA
+*.sublime-project
+*.sublime-workspace
+
+# Runtime data
+pids
+*.pid
+*.sock
+
+# Test coverage
+/coverage
+/.nyc_output
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# Docker
+.dockerignore
+
+# Uploads or user-generated content
+/uploads/
+/files/
+
+# Database files (if not managed by migrations or seeded)
+*.sqlite
+*.db
+*.mdb
+*.accdb
+
+# Security sensitive files (often generated, should not be committed)
+*.key
+*.pem
+*.pfx
+*.jks
+*.cer
+*.crt
