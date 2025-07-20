@@ -148,5 +148,3 @@ El backend expone los siguientes endpoints (montados bajo `/api/appointments`):
 - **`GET /api/appointments`**:
   - **Descripción:** Obtiene una lista de todas las citas agendadas.
   - **Respuesta Exitosa:** `200 OK` con un arreglo de objetos de citas.
-
----
